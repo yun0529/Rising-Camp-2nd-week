@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WatchFbFragment" >
+
+    <TextView
+        android:id="@+id/tv_watch_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/iv_watch_search_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/fb_search_icon"
+        app:layout_constraintTop_toTopOf="@id/tv_watch_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="10dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/fb_user_icon"
+        app:layout_constraintTop_toTopOf="@id/tv_watch_title"
+        app:layout_constraintEnd_toStartOf="@id/iv_watch_search_icon"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_rcText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintWidth_percent="0.24"
+        android:gravity="center_vertical | center_horizontal"
+        android:text="추천 동영상"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_watch_title"
+        app:layout_constraintStart_toStartOf="@id/tv_watch_title"
+        android:layout_marginTop="10dp"
+        android:textColor="#0000FF"
+        android:background="@drawable/fb_watch_round_stroke"/>
+
+    <TextView
+        android:id="@+id/tv_liveText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintWidth_percent="0.13"
+        android:gravity="center_vertical | center_horizontal"
+        android:text="라이브"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="@id/tv_rcText"
+        app:layout_constraintStart_toEndOf="@id/tv_rcText"
+        android:layout_marginStart="20dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_gameText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintWidth_percent="0.13"
+        android:gravity="center_vertical | center_horizontal"
+        android:text="게임"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="@id/tv_rcText"
+        app:layout_constraintStart_toEndOf="@id/tv_liveText"
+        android:layout_marginStart="20dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintWidth_percent="0.13"
+        android:gravity="center_vertical | center_horizontal"
+        android:text="팔로잉"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="@id/tv_rcText"
+        app:layout_constraintStart_toEndOf="@id/tv_gameText"
+        android:layout_marginStart="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/tv_watch_gl1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rcText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#BFC1C8"
+        android:backgroundTint="#BFC1C8"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/iv_watch_site_icon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.06"
+        app:layout_constraintWidth_percent="0.12"
+        android:src="@drawable/fb_hearing_music"
+        app:layout_constraintTop_toBottomOf="@id/tv_watch_gl1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="노래는 듣고 다니냐"
+        android:textSize="16dp"
+        android:id="@+id/tv_watch_site_name"
+        app:layout_constraintStart_toEndOf="@id/iv_watch_site_icon"
+        app:layout_constraintTop_toTopOf="@id/iv_watch_site_icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="1일  "
+        android:id="@+id/tv_watch_time"
+        app:layout_constraintStart_toEndOf="@id/iv_watch_site_icon"
+        app:layout_constraintTop_toBottomOf="@id/tv_watch_site_name"/>
+
+    <ImageView
+        android:id="@+id/iv_time_global"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/fb_global_icon"
+        app:layout_constraintHeight_percent="0.025"
+        app:layout_constraintStart_toEndOf="@id/tv_watch_time"
+        app:layout_constraintTop_toTopOf="@id/tv_watch_time"
+        app:layout_constraintWidth_percent="0.05"
+        android:layout_marginTop="1dp"
+        android:alpha="0.5"/>
+
+    <ImageView
+        android:id="@+id/iv_watch_close_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close_icon"
+        app:layout_constraintTop_toTopOf="@id/tv_watch_site_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="10dp"/>
+
+    <ImageView
+        android:id="@+id/iv_watch_more_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/more_icon"
+        app:layout_constraintEnd_toStartOf="@id/iv_watch_close_icon"
+        app:layout_constraintTop_toTopOf="@id/tv_watch_site_name" />
+
+    <TextView
+        android:id="@+id/tv_watch_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="이번 #윤하 앨범에서 최애곡이라는 사람 속출중인 #오르트구름"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/iv_watch_site_icon"
+        app:layout_constraintTop_toBottomOf="@id/iv_watch_site_icon"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <VideoView
+        android:id="@+id/vv_video"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_watch_thumbnail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/iv_watch_good_icon_color"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/good_color_icon"
+        android:paddingStart="5dp"
+        app:layout_constraintTop_toBottomOf="@id/vv_video"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_watch_click_good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3190"
+        android:layout_gravity="center_vertical"
+        app:layout_constraintStart_toEndOf="@id/iv_watch_good_icon_color"
+        app:layout_constraintTop_toTopOf="@id/iv_watch_good_icon_color"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="댓글 148개ㆍ공유 8회ㆍ조회 144만회"
+        android:layout_gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="@id/iv_watch_close_icon"
+        app:layout_constraintTop_toTopOf="@id/tv_watch_click_good" />
+
+    <TextView
+        android:id="@+id/tv_watch_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:layout_constraintTop_toBottomOf="@id/iv_watch_good_icon_color"
+        android:layout_margin="10dp"
+        android:alpha="0.2"/>
+
+    <TableRow
+        android:id="@+id/tr_watch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_watch_line"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/good_black_icon_size"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="좋아요"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_comment"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:background="@drawable/comment_icon"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:alpha="0.5"
+            android:layout_marginStart="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingStart="10dp"
+            android:text="댓글 달기"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/share_icon"
+            android:alpha="0.5"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:text="공유하기"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tv_watch_gl2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:layout_constraintTop_toBottomOf="@+id/tr_watch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#BFC1C8"
+        android:backgroundTint="#BFC1C8"
+        android:layout_marginTop="5dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

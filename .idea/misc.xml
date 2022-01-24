@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/drawable-anydpi/fb_another_icon.xml" value="0.362962962962963" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/drawable-anydpi/fb_comment_more_icon.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/drawable-anydpi/fb_menu_icon.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/drawable-anydpi/fb_more_bt_icon.xml" value="0.362962962962963" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/drawable/comment_round_stroke.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/drawable/fb_watch_round_stroke.xml" value="0.37037037037037035" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/drawable/round_stroke.xml" value="0.36574074074074076" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/drawable/round_stroke_nsolid.xml" value="0.362962962962963" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/activity_comment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/activity_home.xml" value="0.2898550724637681" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/activity_main.xml" value="0.3605128205128205" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/activity_second.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/commentactivity.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/fragment_alarm_fb.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/fragment_fb__home.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/fragment_group_fb.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/fragment_home_fb.xml" value="0.33" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/fragment_menu_fb.xml" value="0.32314814814814813" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/fragment_profile_fb.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/fragment_watch_fb.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/lv_home_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/layout/secondlayout.xml" value="0.3515625" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/menu/menu_title.xml" value="0.5" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/mipmap-anydpi-v26/ic_banner.xml" value="0.221875" />
+        <entry key="..\:/Users/0529y/Desktop/android/app/src/main/RC3b2Week/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.221875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
